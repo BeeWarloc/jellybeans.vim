@@ -572,8 +572,8 @@ call s:X("DbgBreakPt","","4F0037","","","DarkMagenta")
 if !exists("g:indent_guides_auto_colors")
   let g:indent_guides_auto_colors = 0
 endif
-call s:X("IndentGuidesOdd","","232323","","","")
-call s:X("IndentGuidesEven","","1b1b1b","","","")
+call s:X("IndentGuidesOdd","555555","232323","","","")
+call s:X("IndentGuidesEven","555555","1b1b1b","","","")
 
 " Plugins, etc.
 
